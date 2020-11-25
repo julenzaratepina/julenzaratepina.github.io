@@ -9,17 +9,17 @@ for (i = 0; i < acc.length; i++) {
 
     /* Toggle between hiding and showing the active panel */
     var panel = this.nextElementSibling;
-    var arrowdown = document.getElementbyId("arrowdown")
-    var arrowup = document.getElementbyId("arrowup")
+    var arrowdown = document.getElementbyId("arrowdown");
+    var arrowup = document.getElementbyId("arrowup");
 
     if (panel.style.display === "block") {
       panel.style.display = "none";
-      arrowdown.style.display = "block"
-      arrowup.style.display = "none"
+      arrowdown.style.display = "block";
+      arrowup.style.display = "none";
     } else {
       panel.style.display = "block";
-      arrowup.display = "block"
-      arrowdown.style.display = "none"
+      arrowup.style.display = "block";
+      arrowdown.style.display = "none";
     }
   });
 }
