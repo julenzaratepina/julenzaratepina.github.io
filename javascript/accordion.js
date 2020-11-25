@@ -1,7 +1,5 @@
 var acc = document.getElementsByClassName("accordion");
 var i;
-var arrowdown = document.getElementbyId("arrowdown");
-var arrowup = document.getElementbyId("arrowup");
 
 
 for (i = 0; i < acc.length; i++) {
