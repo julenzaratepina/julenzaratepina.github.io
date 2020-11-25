@@ -15,12 +15,12 @@ for (i = 0; i < acc.length; i++) {
 
     if (panel.style.display === "block") {
       panel.style.display = "none";
-      arrowdown.style.display = "block";
-      arrowup.style.display = "none";
+      //arrowdown.style.display = "block";
+      //arrowup.style.display = "none";
     } else {
       panel.style.display = "block";
-      arrowup.style.display = "block";
-      arrowdown.style.display = "none";
+      //arrowup.style.display = "block";
+      //arrowdown.style.display = "none";
     }
   });
 }
