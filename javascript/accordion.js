@@ -1,5 +1,8 @@
 var acc = document.getElementsByClassName("accordion");
 var i;
+var arrowdown = document.getElementbyId("arrowdown");
+var arrowup = document.getElementbyId("arrowup");
+
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
@@ -9,8 +12,6 @@ for (i = 0; i < acc.length; i++) {
 
     /* Toggle between hiding and showing the active panel */
     var panel = this.nextElementSibling;
-    var arrowdown = document.getElementbyId("arrowdown");
-    var arrowup = document.getElementbyId("arrowup");
 
     if (panel.style.display === "block") {
       panel.style.display = "none";
