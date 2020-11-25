@@ -1,4 +1,4 @@
-# julen-zarate-pina.github.io
+# julenzaratepina.github.io
 This is my personal website, created using the minimal package (http://orderedlist.github.com/minimal/) for  [GitHub Pages](http://pages.github.com/).
 
 Syntax highlighting is provided on GitHub Pages by [Pygments](http://pygments.org).
