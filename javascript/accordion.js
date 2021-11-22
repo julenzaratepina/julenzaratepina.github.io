@@ -9,18 +9,17 @@ for (i = 0; i < acc.length; i++) {
     this.classList.toggle("active");
 
     /* Toggle between hiding and showing the active panel */
+    
     var panel = this.nextElementSibling;
 
     if (panel.style.display === "block") {
       panel.style.display = "none";
-      document.getElementById("show_abstract").style.display = 'none';
-      document.getElementById("hide_abstract").style.display = 'block';
-
+      acc.value="Show abstract"
 
     } else {
       panel.style.display = "block";
-      document.getElementById("show_abstract").style.display = 'none';
-      document.getElementById("hide_abstract").style.display = 'block';
+      acc.value="Hide abstract"
+      
     }
   });
 }
