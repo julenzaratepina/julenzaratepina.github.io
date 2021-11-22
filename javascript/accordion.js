@@ -14,16 +14,17 @@ for (i = 0; i < acc.length; i++) {
 
     if (panel.style.display === "block") {
       panel.style.display = "none";
-       if acc[i].hasAttribute('resolution_abstract'){
+       if acc[i].id === "resolution_abstract"{
         document.getElementById("resolution_show").style.display = "block";
-        document.getElementById("resolution_hide").style.display = "none";} else{
+        document.getElementById("resolution_hide").style.display = "none";
+       } else{
           document.getElementById("identity_show").style.display = "block";
         document.getElementById("identity_hide").style.display = "none";}
           
       
     } else {
       panel.style.display = "block";
-      if acc[i].hasAttribute('resolution_abstract'){
+      if acc[i].id === "identity_abstract"{
         document.getElementById("resolution_show").style.display = "none";
         document.getElementById("resolution_hide").style.display = "block";
       } else{
