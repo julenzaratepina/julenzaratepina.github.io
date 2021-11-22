@@ -1,4 +1,4 @@
-var acc = document.getElementsByClassName("accordion_identity");
+var acc = document.getElementsByClassName("accordion");
 var i;
 
 
@@ -13,14 +13,14 @@ for (i = 0; i < acc.length; i++) {
 
     if (panel.style.display === "block") {
       panel.style.display = "none";
-      document.getElementById("identity_show").style.display = 'none';
-      document.getElementById("identity_hide").style.display = 'block';
+      document.getElementById("show_abstract").style.display = 'none';
+      document.getElementById("hide_abstract").style.display = 'block';
 
 
     } else {
       panel.style.display = "block";
-      document.getElementById("identity_hide").style.display = 'none';
-      document.getElementById("identity_bloc").style.display = 'block';
+      document.getElementById("show_abstract").style.display = 'none';
+      document.getElementById("hide_abstract").style.display = 'block';
     }
   });
 }
