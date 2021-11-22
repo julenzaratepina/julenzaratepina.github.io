@@ -13,9 +13,14 @@ for (i = 0; i < acc.length; i++) {
 
     if (panel.style.display === "block") {
       panel.style.display = "none";
+      document.getElementById("resolution_show").style.display = 'none';
+      document.getElementById("resolution_hide").style.display = 'block';
+
 
     } else {
       panel.style.display = "block";
+      document.getElementById("resolution_hide").style.display = 'none';
+      document.getElementById("resolution_bloc").style.display = 'block';
     }
   });
 }
