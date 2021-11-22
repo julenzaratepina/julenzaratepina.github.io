@@ -14,7 +14,7 @@ for (i = 0; i < acc.length; i++) {
 
     if (panel.style.display === "block") {
       panel.style.display = "none";
-       if acc[i].id === "resolution_abstract"{
+       if this.id === "resolution_abstract"{
         document.getElementById("resolution_show").style.display = "block";
         document.getElementById("resolution_hide").style.display = "none";
        } else{
@@ -24,7 +24,7 @@ for (i = 0; i < acc.length; i++) {
       
     } else {
       panel.style.display = "block";
-      if acc[i].id === "identity_abstract"{
+      if this.id === "identity_abstract"{
         document.getElementById("resolution_show").style.display = "none";
         document.getElementById("resolution_hide").style.display = "block";
       } else{
