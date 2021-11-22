@@ -24,7 +24,7 @@ for (i = 0; i < acc.length; i++) {
       
     } else {
       panel.style.display = "block";
-      if this.id === "identity_abstract"{
+      if this.id === "resolution_abstract"{
         document.getElementById("resolution_show").style.display = "none";
         document.getElementById("resolution_hide").style.display = "block";
       } else{
