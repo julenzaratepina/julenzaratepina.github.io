@@ -28,11 +28,11 @@
 }
 
 .accordion:after {
-      font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f107";
+      font-family: "Font Awesome 5 Free"; font-weight: 900; content: "Show abstract \f107";
 
 }
 
 .active:after {
-      font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f106";
+      font-family: "Font Awesome 5 Free"; font-weight: 900; content: "Hide abstract \f106";
 
 }
